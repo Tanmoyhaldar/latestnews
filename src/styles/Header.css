@@ -1,0 +1,15 @@
+/* Header.css */
+.header-container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.header-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #343a40; /* Dark gray text color */
+    text-transform: uppercase;
+}

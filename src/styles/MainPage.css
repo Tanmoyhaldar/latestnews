@@ -1,0 +1,85 @@
+/* MainPage.css */
+
+.main-container {
+    max-width: 100%;
+    margin: -4vh auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.search-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.refresh {
+    background-color: #b1150a; /* Red */
+    color: white;
+}
+
+.load-more {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.loader-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.news-container {
+    margin-top: 20px;
+}
+
+.news-container .no-news {
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Search.css */
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .search-input {
+        width: calc(50% - 5px);
+    }
+}

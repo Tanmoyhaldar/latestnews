@@ -1,0 +1,8 @@
+/* NoNews.css */
+.no-news {
+    text-align: center;
+    margin-top: 50px;
+    color: #dc3545; /* Bootstrap danger color */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
